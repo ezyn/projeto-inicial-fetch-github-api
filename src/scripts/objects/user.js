@@ -16,7 +16,16 @@ const user = {
         this.following = gitHubUser.following
     },
     setRepositories(repositories){
-        this.repositories = repositories
+        // console.log(repositories);
+        
+        this.repositories = repositories.map(repo => ({
+            name: repo.name,
+            html_url: repo.html_url,
+            forks: repo.forks,
+            stars: repo.stars,
+            watchers: repo.watchers,
+            language: repo.language
+        }))
     },
     setEvents(events){
         this.events = events

@@ -80,7 +80,7 @@ main {
 }
 
 .container header #btn-search:hover {
-  background-color: grey;
+  background-color: rgb(5, 5, 5);
   ;
   color: #ffffff;
   border-color: #ffffff;
@@ -145,7 +145,7 @@ main {
 }
 
 .container .profile-data .repositories ul li a:hover{
-  background-color: grey;
+  background-color: rgb(5, 5, 5);
   color: #fff;
 }
 
